@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Djalaluddin Pane Foundation</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="/static/styles/Main.css" />
+		<link rel="icon" href="{{ url_for('static', filename='Image/Logo DPF.png') }}" />
+	</head>
+	<body>
+
+		<!-- Navbar awal -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="/static/Image/Logo DPF.png" alt="Logo" width="40" height="24" class="d-inline-block align-text-top" />Djalaluddin Pane Foundation</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/About">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/Artikel">Artikel</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="bg-success-subtle">
+			<div class="container bg-success-subtle" style="padding: 50px; margin: 0">
+				<article class="row">
+					<div class="col" style="padding-top: 90px">
+						<h2 class="fs-2 fw-semibold text-center">Selamat Datang di Djalaluddin Pane Foundation Official Website</h2>
+						<p class="fs-4 text-center">Mata Air Kebajikan</p>
+
+						<div class="btn-outline-Success text-center">
+							<a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" class="text-success link-underline-light">Hubungi Kami</a>
+						</div>
+					</div>
+					<img src="/static/Image/Foto Bersama DPF Jakarta.png" alt="Keluarga DPF" class="img-fluid rounded text-center" style="max-width: 492px" margin-top: 20px; border-radius: 9px; />
+				</article>
+			</div>
+		</section>
+
+		<section class="bg-success-subtle">
+			<h1 class="text-center" style="padding-top: 20px">Informasi Layanan</h1>
+
+			<div class="row row-cols-1 row-cols-md-5 g-4" style="padding: 50px">
+				<div class="col">
+					<div class="card h-100 w-250 bg-success text-light">
+						<img src="/static/Image/zakat-fit.webp" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title text-center">Zakat</h5>
+							<p class="card-text">Momentum bulan suci Ramadhan merupakan kesempatan meraup pahala berlipat ganda yang hanya datang setahun sekali.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 bg-success text-light">
+						<img src="/static/Image/sedekah-sub.webp" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title text-center">Sedekah</h5>
+							<p class="card-text">Beribadahlah di saat yang lain sedang terlelap. Awali hari dengan salat dan bersedekah.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 bg-success text-light">
+						<img src="/static/Image/kurban.webp" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title text-center">Kurban</h5>
+							<p class="card-text">Salah satu ibadah yang penting dalam agama Islam yang dilakukan oleh umat muslim pada hari raya Idhul Adha.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 bg-success text-light">
+						<img src="/static/Image/wakaf-dis.webp" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title text-center">Wakaf</h5>
+							<p class="card-text">Bantu para disabilitas menjadi penghafal Al-Quran dan Menciptakan Generas Qur'ani yang cinta Al-Qur'an.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 bg-success text-light">
+						<img src="/static/Image/berbagi-1000.webp" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title text-center">Donasi</h5>
+							<p class="card-text">Berbagi paket makanan untuk para santri. Mari kita manfaatkan bulan Ramadhan ini sebagai waktu yang</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-success-subtle">
+			<h1 class="text-center" style="padding-top: 20px">Program Unggulan</h1>
+
+			<div class="row row-cols-1 row-cols-md-5 g-4" style="padding: 50px">
+				<div class="col ">
+					<div class="card h-100 w-250 bg-success text-light">
+						<img src="/static/Image/zakat-fit.webp" class="card-img-top" alt="..." />
+						<div class="card-body text-center">
+							<h5 class="card-title">Teacher Competency Development Program</h5>
+							<p class="card-text">Program Organisasi Penggerak memiliki lebih dari 100 Sekolah dari 5 Provinsi</p>
+							
+						</div>
+						<div class="card-footer text-center border border-0">
+							<a href="#" class="btn btn-dark ">Next</a>
+						  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 w-250 bg-success text-light">
+						<img src="/static/Image/sedekah-sub.webp" class="card-img-top" alt="..." />
+						<div class="card-body text-center">
+							<h5 class="card-title">Lumbung Swadaya Desa</h5>
+							<p class="card-text">Program Eksisting dengan visi membangun ekosistem pertania yang terbebas dari riba dan segala bentuk yang merusak</p>
+						</div>
+						<div class="card-footer text-center border border-0">
+							<a href="#" class="btn btn-dark ">Next</a>
+						  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 w-250 bg-success text-light">
+						<img src="/static/Image/kurban.webp" class="card-img-top" alt="..." />
+						<div class="card-body text-center">
+							<h5 class="card-title">Berbagi Beras Sehat</h5>
+							<p class="card-text">Merupakan rangkaian program karitas pangan yang bersifat mendesak kebutuhan pokok para mustahiq</p>
+						</div>
+						<div class="card-footer text-center border border-0">
+							<a href="#" class="btn btn-dark ">Next</a>
+						  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 w-250 bg-success text-light">
+						<img src="/static/Image/wakaf-dis.webp" class="card-img-top" alt="..." />
+						<div class="card-body text-center">
+							<h5 class="card-title">Bina UMKM</h5>
+							<p class="card-text">Merupakan pengembangan bina UMKM di berbagai kota di Indonesia. Program pengembangan Bina UMKM ini diharapkan dapat memberikan dampak positif yang besar bagi para UMKM</p>
+						</div>
+						<div class="card-footer text-center border border-0">
+							<a href="#" class="btn btn-dark ">Next</a>
+						  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 w-250 bg-success text-light">
+						<img src="/static/Image/berbagi-1000.webp" class="card-img-top" alt="..." />
+						<div class="card-body text-center">
+							<h5 class="card-title">Literasi Islamic Social Finance</h5>
+							<p class="card-text">Penguatan pemahaman masyarakat di bidang Zakat,Infaq,Sedekah dan Wakaf yang dilakukan di banyak tempat</p>
+						</div>
+						<div class="card-footer text-center border border-0">
+							<a href="#" class="btn btn-dark ">Next</a>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tentang Kami -->
+		<section class="bg-success-subtle">
+			<div class="container" style="padding: 50px; margin: 0">
+				<article class="row">
+					<img src="/static/Image/Foto Bersama DPF Jakarta.png" alt="Keluarga DPF" class="img-fluid rounded text-center" style="max-width: 492px" margin-top: 20px; border-radius: 9px; />
+
+					<div class="col" style="padding-top: 90px; padding-left: 50px">
+						<h2 class="fs-2 fw-semibold text-center">Sejarah Djalaluddin Pane Foundation</h2>
+						<p class="fs-6 text-center">
+							Yayasan Wakaf Djalaluddin Pane yang sekarang telah menjadi LAZNAS DPF didirikan pada 26 Juli 2010. Hampir 12 tahun melayani umat, LAZNAS DPF telah melahirkan berbagai Program pembedayaan di bidang Pendidikan bagi guru,
+							masyarakat tani di desa pelosok, peningkatan kompetensi bagi siswa sekolah dasar-menengah. Hingga upaya pemberdayaan para Penggali Kubur yang kerap terlupakan bahwa mereka adalah Dhuafa yang perlu kita bantu. Selain di bidang
+							Pendidikan, LAZNAS DPF membangun Program Lumbung Swadaya Desa untuk membantu Petani mampu mandiri dan memiliki kedaulatan pangan.
+						</p>
+
+						<div class="btn-outline-Success text-center"><a href=" " class="text-success link-underline-light">Selengkapnya</a></div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- Mitra Kami -->
+		<section class=" bg-success-subtle text-center   ">
+			<h2>Mitra Kami</h2>
+			<p>
+				Mari bersama memberdayakan dan ikut serta membukakan pintu pemberdayaan bagi kesejahteraan <br />
+				masyarakat fakir dan miskin bersama kami
+			</p>
+			<div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center "  style="max-width: 50%; padding: 20px; display: flex; justify-content: center;">
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/1-removebg-preview.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/2.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/3.png" class="card-img-top bg-success-subtle" alt="..." />
+					
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/4.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/5.png" class="card-img-top bg-success-subtle" alt="..." />
+					
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/6-removebg-preview.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/logo-bappenas-png.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/Logo-Baznas-RI-PNG.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/logo-Dinas-Pertainaan-Banten-PNG.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/logo-kemenag-PNG.png" class="card-img-top bg-success-subtle" alt="..." />
+					
+					</div>
+				
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/logo-kemendikbud-PNG.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/logo-MAI-PNG.png" class="card-img-top bg-success-subtle" alt="..." />
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="/static/Image/Hiring Patner DPF/logo-MUI-png.png" class="card-img-top bg-success-subtle" alt="..." />
+					
+					</div>
+				</div>
+		
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<div class="footer bg-dark text-light">
+				<footer>
+					<div class="alamat">
+						<h2>Djalaluddin Pane Foundation</h2>
+						<a href="https://maps.app.goo.gl/25bbgu3xGGwdEPhY7" >
+							<p class="text-light">
+								Jl. Setia Budi No.123, Tj. Sari, Kec. Medan Selayang,<br />
+								Kota Medan, Sumatera Utara 20132
+							</p>
+						</a>
+						<p>(Kantor Medan)</p>
+
+						<a href="https://maps.app.goo.gl/PTaa7dcdS7E57U1Y6">
+							<p class="text-light">
+								Signature Park Grande, Jl. Letjen M.T. Haryono No.Kav. 20, RT.4/RW.1, Cawang,<br />
+								Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13630
+							</p>
+						</a>
+						<p>(Kantor Jakarta)</p>
+						<p>&copy; Djalaluddin Pane Foundation</p>
+					</div>
+
+					<div class="Footer">
+						<h2>Tentang Kami</h2>
+						<p><a href="https://dpf.or.id/tentang-kami/" class="text-light">Sejarah</a></p>
+						<p><a href="https://dpf.or.id/visi-misi/" class="text-light">Visi Misi</a></p>
+						<p><a href="https://dpf.or.id/budaya-kerja/" class="text-light">Budaya kerja</a></p>
+						<p><a href="https://dpf.or.id/rekening/" class="text-light">Rekening</a></p>
+						<p><a href="https://dpf.or.id/laporan/" class="text-light">Laporan</a></p>
+						<p><a href="https://docs.google.com/document/d/1KgDll-1XhL1ju2Uhdw7iBIUASczEs7UvVzfjjQwZtUI/edit?usp=sharing" class="text-light">Daftar Pertanyaan Smart Ziswaf</a></p>
+					</div>
+
+					<div class="mediaSosial">
+						<div>
+							<h2>Media Sosial</h2>
+						</div>
+						<div class="icon">
+							<a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng==" class="bg-light rounded">
+								<img src="/static/Image/instagram.png" alt="Instagram Icon" style="width: 50px; height: auto" />
+							</a>
+
+							<a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" target="_blank">
+								<img src="/static/Image/whatsapp.png" alt="WhatsApp Icon" style="width: 50px; height: auto" id="##WhatsApp" class="bg-light rounded"/>
+							</a>
+
+							<a href="https://www.youtube.com/@dpfofficial">
+								<img src="/static/Image/youtube.png" alt="YouTube Icon" style="width: 50px; height: auto" class="bg-light rounded" />
+							</a>
+
+							<a href="mailto:info@dpf.or.id">
+								<img src="/static/Image/Gmail.png" alt="Gmail Icon" style="width: 50px; height: auto" class="bg-light rounded" />
+							</a>
+						</div>
+					</div>
+				</footer>
+			</div>
+	</body>
+</html>

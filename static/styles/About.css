@@ -1,0 +1,206 @@
+* {
+
+    /* font-family:; */
+    box-sizing:border-box;
+}
+
+body{    
+    font-family: 'Montserat' , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A6FF96;
+}
+
+/* Navigation */
+
+header{
+    /* background-color: #A6FF96; */
+    /* display: flex; */
+    padding: 20px 0 0 20px;
+    
+}
+
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 10px; */
+    /* gap: 26rem; */
+}
+
+nav div {
+    display: flex;
+}
+
+nav img{
+    /* width: 100%; */
+    max-height: 59px;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+nav div h1 {
+    color: #66B539;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* ul li {
+    list-style-type: none;
+    text-align: center;
+} */
+
+.button{
+     /* padding: 16px 32px;
+     /* color: #151B1F; */
+     /* text-align: center; */
+     /* margin: 4px 2px; */
+     /* transition-duration: 0.4s;
+     cursor: pointer;
+     border: none;
+     border-radius: 20px; */
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+
+.button a {
+   color: #151B1F;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 10px 15px;
+   list-style: none;
+}
+
+
+.button-black a:hover{
+    color: #fff;
+    background-color: black;
+    padding: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition-duration: 0.4s;
+
+}
+
+.default{
+    color: black;
+    background-color: #fff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+
+/* Structure */
+
+.main {
+    margin-top:20px ;
+}
+
+.card-main-title{
+    background-color: aliceblue;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    max-width: 45%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-main-title h1{
+    color: #487b24;
+}
+
+.card-main-title h2{
+    color: #c89b3f;
+}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.cardItems{
+    max-width: 200px;
+    background-color: aliceblue;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    /* overflow: hidden; */
+}
+
+.card_image{
+    max-width: 100%;
+    object-fit:cover;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_image img {
+    max-width: 100%;
+    max-height: 250px;
+
+}
+
+.cardcontent{
+    padding: 20px
+}
+
+.cardcontent p {
+    font-size: 11px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.cardcontent hr {
+        margin: 14px auto;
+        width: 50px;
+        border-top: 2px solid #c89b3f;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 50px;
+    background-color: #E8F7DD;
+}
+
+.footer a{
+    text-decoration: none;
+    color:#151B1F;
+}
+
+.footer footer{
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer .mediaSosial .icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .mediaSosial img{
+    max-width: 30px;
+    border-radius: 9px;
+}

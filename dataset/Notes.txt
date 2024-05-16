@@ -1,0 +1,2 @@
+- Dataset IslamicBot untuk dijalankan deploy
+- Dataset IslamicBot_Test digunakan untuk pelatihan model di google colab

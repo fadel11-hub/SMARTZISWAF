@@ -1,0 +1,730 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Assalamu'alaikum, hallo",
+                "Assalamu'alaikum, hai",
+                "Assalamu'alaikum"
+            ],
+            "responses": [
+                "Wa'alaikumsalam, Hai! Dengan Smart Ziswaf disini, ada yang ingin ditanyakan ?",
+                "Wa'alaikumsalam, Hallo! Perkenalkan Aku Smart Ziswaf, Ingin tau informasi tentang apa nih ?",
+                "Wa'alaikumsalam, Hi! Ini Smart Ziswaf. ada yang bisa ku bantu?",
+                "Wa'alaikumsalam. Hello, kembali lagi dengan aku Smart Ziswaf, kira - kira mau nanya apa nih?"
+                
+            ]
+        },
+        {
+            "tag": "seputar dpf",
+            "patterns": [
+                "DPF itu apa?",
+                "Apa itu Djalaluddin Pane Foundation?",
+                "DPF bergerak di bidang apaan aja?"
+            ],
+            "responses": [
+                "Yayasan Wakaf Djalaludin Pane yang sekarang telah menjadi LAZNAS DPF didirikan pada 26 Juli 2010. Hampir 12 tahun melayani umat, LAZNAS DPF telah melahirkan berbagai Program pembedayaan di bidang Pendidikan bagi guru, masyarakat tani di desa pelosok, peningkatan kompetensi bagi siswa sekolah dasar-menengah. Hingga upaya pemberdayaan para Penggali Kubur yang kerap terlupakan bahwa mereka adalah Dhuafa yang perlu kita bantu. Selain di bidang Pendidikan, LAZNAS DPF membangun Program Lumbung Swadaya Desa untuk membantu Petani mampu mandiri dan memiliki kedaulatan pangan."
+            ]
+        },
+
+        {
+            "tag": "program dpf",
+            "patterns": [
+                "Apa saja program yang ada di LAZNAS DPF?"
+            ],
+            "responses": [
+                "Laznas DPF memiliki program yang terdiri dari program inti dan program unggulan. Adapun program inti terdiri dari Zakat, Infaq, Sedekah, Kurban, Wakaf dan Donasi. Sedangkan untuk program unggulan terdiri dari Teacher Competency Development Program, Lumbung Swadaya Desa, Berbagi Beras Sehat, Bina UMKM, Literasi Islamic Sosial Finance"
+            ]
+        },
+
+        {
+            "tag": "penjelasan smart ziswaf",
+            "patterns": [
+                "Siapa pembuat Smart Ziswaf?",
+                "Siapa yang membuat Smart Ziswaf?",
+                "Siapa pembuat Smart Ziswaf?",
+                "Smart Ziswaf tuh dibuat sama siapa?",
+                "Smart Ziswaf dibuat siapa ya?",
+                "Kamu dibuat siapa?"
+            ],
+            "responses": [
+                "Smart Ziswaf hadir sebagai pengembangan dari kemajuan teknologi khususnya dibidang Artificial Intelligence yang memudahkan para mustahik dalam melaksanakan ZISWAF. Smart Ziswaf dibuat oleh Tim IT dari Laz Djalaluddin Pane Foundation."
+            ]
+        },
+        
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "bye",
+                "dadah",
+                "good bye",
+                "tidak ada",
+                "tidak ada lagi",
+                "sudah cukup",
+                "cukup"
+            ],
+            "responses": [
+                "Alhamdulillah, Semangat, semoga hari kamu menyenangkan yaa",
+                "Alhamdulillah. Semoga sehat selalu, yaa",
+                "Baik Alhamdulillah, Sampai jumpa lagi!",
+                "Alhamdulillah, sampai bertemu kembali! Senang bisa membantu",
+                "Waalaikumsalam, terima kasih sudah berdiskusi dengan aku!"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Alhamdulillah Dengan senang hati :)",
+                "Alhamdulillah, Baik. Sama - Sama",
+                "Alhamdulillah, Kembali kasih"
+            ]
+        },
+
+        {
+            "tag": "pertanyaan diluar ziswaf",
+            "patterns": [
+                "Pertanyaan diluar ziswaf?",
+                "Bisa bertanya diluar tentang ziswaf ga ya?",
+                "Ada pertanyaan diluar ziswaf ga?"
+
+            ],
+            "responses":[
+                "Mohon maaf pertanyaan tersebut belum dapat dijawab, dikarenakan pertanyaannya hanya seputar tentang zakat, infaq, shodaqoh dan wakaf"
+            ]
+        },
+
+        {
+            "tag": "pertanyaan abstrak",
+            "patterns": [
+                "bdhwwbfhbcfhfev",
+                "fwfwedffddeef",
+                "EEEFDDDDVV",
+                "djsdjfjefef"
+            ],
+            "responses":[
+                "Mohon maaf Silahkan masukkan pesan pertanyaan yang jelas"
+            ]
+        },
+
+        {
+            "tag": "List Pertanyaan",
+            "patterns": [
+                "Kasih aku list pertanyaan dong",
+                "List pertanyaan",
+                "List"
+            ],
+            "responses":[
+                "Baik, Berikut adalah Daftar List Pertanyaan yang dapat kamu tanyakan ke aku ya! : 1. Apa yang dimaksud dengan ZISWAF?, 2. Apa yang dimaksud dengan zakat?, 3. Ada berapa macam jenis - jenis zakat?, 4. Bagaimana sih perkembangan ZISWAF di seluruh dunia?, 5. Apa yang dimaksud dengan zakat dalam Islam?, 6. Siapa saja yang wajib mengeluarkan zakat?, 7. Harta yang boleh dijadikan zakat ada apa aja?, 8. Berapa besar zakat yang harus dikeluarkan?, 9. Kepada siapa zakat boleh disalurkan?, 10. Bagaimana cara penyaluran zakat?, 11. Apa saja manfaat zakat?, 12. Apa hukum zakat?, 13. Apa saja hikmah zakat?, 14. Jelaskan bagaimana cara menghitung zakat?, 15. Jenis zakat ada apa aja ya?, 16. Apa yang dimaksud dengan infaq?, 17. Apa perbedaan antara infaq dan sedekah?, 18. Apakah infaq wajib hukumnya?, 19. Kepada siapa infaq boleh disalurkan?, 20. Apakah ada batasan minimal atau maksimal untuk infaq?, 21. Apa saja manfaat infaq bagi individu?, 22. Apa saja manfaat infaq bagi masyarakat?, 23. Bagaimana infaq dapat membantu mewujudkan keadilan sosial?, 25. Apa saja jenis-jenis infaq?, 26. Apa contoh-contoh infaq yang dianjurkan?, 27. Apakah infaq dapat dilakukan dalam bentuk barang atau jasa?, 28. Apakah ada dzikir yang lebih utama daripada yang lain?, 29. Apakah infaq dapat dilakukan secara langsung atau melalui lembaga?, 30. Bagaimana cara memilih lembaga infaq yang terpercaya?, 31. Apa saja yang perlu diperhatikan dalam menyalurkan infaq?, 32. Bagaimana cara memastikan infaq yang kita berikan tepat sasaran?, 33. Apa yang dimaksud dengan sedekah ?, 34. Apa perbeadaam antara sedekah dan infaq?, 35. Apakah sedekah wajib hukumnya?, 36. Kepada siapa sedekah boleh disalurkan?, 37. Apakah ada batasan minimal atau maksimal untuk sedekah?, 38. Apa saja manfaat sedekah bagi individu?, 39. Apa saja manfaat sedekah bagi masyarakat?, 40. Bagaimana sedekah dapat membantu mewujudkan keadilan sosial?, 41. Bagaimana sedekah dapat membantu meningkatkan kualitas hidup masyarakat?, 42. Bagaimana sedekah dapat membantu pembangunan ekonomi umat Islam?, 43. Apa saja jenis-jenis sedekah?, 44. Apa contoh-contoh sedekah yang dianjurkan?, 45. Bagaimana bacaan niat zakat fitrah?, 46. Apakah yang dimaksud dengan Zakat Profesi?, 47. Apa itu wakaf?, 48. Siapa yang dapat melakukan wakaf?, 49. Apa saja yang bisa diwakafkan?, 50. Bagaimana cara mewakafkan harta benda?, 51. Apa manfaat wakaf?, 52. Bagaimana cara mewakafkan harta benda?, 53. Apa saja yang bisa dilakukan dengan harta benda wakaf?, 54. Bagaimana jika harta benda wakaf tidak lagi bermanfaat?, 55. Apa saja kendala dalam pengembangan wakaf di Indonesia?, 56. Apakah ada hadits / Ayat Al - Quran yang mewajibkan kita untuk menunaikan zakat?, 57. Apa keutamaan dari menunaikan zakat?, 58. Apa itu zakat crypto currency?, 59. Bagaimana pandangan ulama tentang zakat cryptocurrency?"
+            ]
+        },
+
+        {
+            "tag": "user_q1",
+            "patterns": [
+                "Apa yang dimaksud dengan ZISWAF?",
+                "ZISWAF itu singkatan dari apa?",
+                "Coba dong jelasin ZISWAF itu apa?"
+            ],
+            "responses": [
+                "ZISWAF merupakan singkatan dari Zakat, Infaq, Shodaqoh, dan Wakaf yang merupakan konsep di dalam agama Islam yang mengacu pada kewajiban memberikan sebagaian harta kepada yang berhak serta amal yang diberikan secara sukarela untuk kepentingan umum",
+                "ZISWAF juga bisa diartikan sebagai upaya untuk mengelola dana dari zakat, infaq, sedekah, dan wakaf secara profesional untuk meningkatkan kesejahteraan umat. Melalui pengelolaan yang baik, dana tersebut dapat dimanfaatkan untuk program-program yang berdampak positif pada masyarakat, seperti pendidikan, kesehatan, ekonomi, dan bantuan sosial. Konsep ZISWAF ini mencerminkan prinsip kebersamaan dan saling membantu dalam Islam serta menjadi instrumen untuk mengentaskan kemiskinan dan membangun keberlanjutan sosial dan ekonomi umat.",
+                "ZISWAF merupakan instrumen keuangan Islam yang menggabungkan prinsip-prinsip zakat, infaq, sedekah, dan wakaf dalam upaya meningkatkan kesejahteraan umat. Dana yang terkumpul dari ZISWAF digunakan untuk program-program sosial dan ekonomi yang bertujuan untuk mengurangi kesenjangan sosial, meningkatkan akses pendidikan dan kesehatan, serta mendukung pengembangan ekonomi umat. Pengelolaan ZISWAF dilakukan secara transparan dan akuntabel untuk memastikan dana tersebut benar-benar bermanfaat bagi yang membutuhkan."
+            ]
+        },
+
+        {
+            "tag": "user_q2",
+            "patterns": [
+                "Apa yang dimaksud dengan zakat?",
+                "Zakat itu apa?",
+                "Pengertian Zakat",
+                "Definisi Zakat",
+                "Zakat itu apa ya?"
+            ],
+            "responses": [
+                "Zakat berasal dari bentuk kata 'zaka' yang berarti suci, baik, berkah, tumbuh, dan berkembang. Dinamakan zakat, karena di dalamnya terkandung harapan untuk memperoleh berkah, membersihkan jiwa dan memupuknya dengan berbagai kebaikan (Fikih Sunnah, Sayyid Sabiq: 5)",
+                "Zakat adalah bagian tertentu dari harta yang wajib dikeluarkan oleh setiap muslim apabila telah mencapai syarat yang ditetapkan. Sebagai salah satu rukun Islam, zakat ditunaikan untuk diberikan kepada golongan yang berhak menerimanya (asnaf)."
+            ]
+        },
+        {
+            "tag": "user_q3",
+            "patterns": [
+                "Ada berapa macam jenis - jenis zakat?",
+                "Zakat ada apa aja ya?",
+                "Tau ga zakat ada berapa macam?",
+                "Jenis - jenis zakat"
+            ],
+            "responses": [
+                "Secara umum zakat terbagi menjadi dua jenis, yakni zakat fitrah dan zakat mal. Zakat Fitrah (zakat al-fitr) adalah zakat yang diwajibkan atas setiap jiwa baik lelaki dan perempuan muslim yang dilakukan pada bulan Ramadhan, Zakat mal adalah zakat yang dikenakan atas segala jenis harta, yang secara zat maupun substansi perolehannya, tidak bertentangan dengan ketentuan agama. Sebagai contoh, zakat mal terdiri atas uang, emas, surat berharga, penghasilan profesi, dan lain-lain, sebagaimana yang terdapat dalam UU No. 23/2011 tentang Pengelolaan Zakat, Peraturan Menteri Agama No. 52 Tahun 2014 yang telah diubah dua kali dengan perubahan kedua adalah Peraturan Menteri Agama No. 31/2019, dan pendapat Syaikh Dr. Yusuf Al-Qardhawi serta para ulama lainnya."
+            ]
+        },
+        {
+            "tag": "user_q4",
+            "patterns": [
+                "Sejarah ZISWAF ada ga ya?",
+                "Apakah ZISWAF ada sejarahnya?",
+                "Bagaimana sih perkembangan ZISWAF di seluruh dunia?",
+                "Perkembangan Ziswaf di Indonesia gimana?"
+            ],
+            "responses": [
+                "Sejarah pengelolaan zakat pada masa Nabi Muhammad di Madinah, dapat menjadi acuan dan pembelajaran umat muslim masa kini. Walaupun ayat untuk berzakat turun ketika Nabi Muhammad berada di Mekkah, sistem pengelolaan zakat pertama kali diterapkan pada tahun kedua setelah umat muslim hijrah ke Madinah.Waktu di Makkah, umat muslim yang memiliki kemampuan harta dianjurkan untuk bersedekah dan memerdekakan para budak. Namun, belum ada sistem atau lembaga yang mengelola kewajiban berzakat. Pun termasuk pada saat hijrah, umat muslim tidak membawa banyak harta dan aset kekayaan yang mereka miliki (kecuali Usman bin Affan). Namun, setelah setahun membangun ketahanan ekonomi, barulah Rasulullah mengumumkan wajib zakat.",
+                "Perkembangan Zakat, Infak, Sedekah, dan Wakaf (Ziswaf) di Indonesia dalam satu dekade terakhir menunjukkan tren positif, baik dari sisi penghimpunan maupun pendayagunaan. Dana Ziswaf yang berhasil dikelola mengalami peningkatan signifikan dari waktu ke waktu."
+            ]
+        },
+        {
+            "tag": "user_q5",
+            "patterns": [
+                "Apa yang dimaksud dengan zakat dalam Islam?",
+                "Zakat itu apa dah?",
+                "Pengertian zakat",
+                "Definisi Zakat"
+            ],
+            "responses": [
+                "Zakat adalah salah satu rukun Islam yang wajib ditunaikan oleh setiap Muslim yang memenuhi syarat. Zakat berarti membersihkan harta dengan cara mengeluarkan sebagian tertentu dari harta untuk diberikan kepada fakir miskin dan orang-orang yang berhak menerimanya."
+            ]
+        },
+        {
+            "tag": "user_q6",
+            "patterns": [
+                "Siapa saja yang wajib mengeluarkan zakat?"
+                
+            ],
+            "responses": [
+                "Orang yang wajib mengeluarkan zakat adalah Muslim yang baligh, berakal sehat, merdeka, dan memiliki harta yang mencapai nishab (batas minimal harta yang wajib dizakati)."
+            ]
+        },
+
+        {
+            "tag": "user_q7",
+            "patterns": [
+                "Apa saja harta yang wajib dizakati?",
+                "Harta yang boleh dijadikan zakat ada apa aja?"
+            ],
+            "responses": [
+                "Harta yang wajib dizakati terbagi menjadi beberapa jenis, antara lain: 1. Emas dan perak, 2. Harta perniagaan, 3. Hasil pertanian dan buah-buahan, 4. Binatang ternak, 5. Harta temuan"
+            ]
+        },
+
+        {
+            "tag": "user_q8",
+            "patterns": [
+                "Berapa besar zakat yang harus dikeluarkan?",
+                "Besaran zakat yang perlu dikeluarkan itu berapa banyak ya?"
+            ],
+            "responses": [
+                "Besarnya zakat yang harus dikeluarkan berbeda-beda tergantung pada jenis hartanya. Berikut adalah tabel besaran zakat untuk beberapa jenis harta: 1. Emas dan Perak sebesar 2,5%, 2. Harta Perniagaan sebesar 2,5%, 3. Harta hasil Pertanian dan Buah - buahan sebesar 5 - 10 %, 4. Binatang Ternak sebesar 2,5 - 40%, 5. Harta Temuan sebesar 1/5"
+            ]
+        },
+        {
+            "tag": "user_q9",
+            "patterns": [
+                "Kepada siapa zakat boleh disalurkan?"
+            ],
+            "responses": [
+                "Zakat boleh disalurkan kepada delapan golongan yang berhak menerimanya, yaitu: 1. Fakir miskin, 2. Miskin, 3. Amil zakat, 4. Muallaf, 5.Hamba sahaya yang ingin memerdekakan diri, 6. Orang yang berhutang karena fii sabilillah, 7. Fi Sabilillah, 8. Ibnu Sabil"
+            ]
+        },
+        {
+            "tag": "user_q11",
+            "patterns": [
+                "Bagaimana cara penyaluran zakat?"
+            ],
+            "responses": [
+                "Zakat dapat disalurkan secara langsung kepada orang-orang yang berhak menerimanya atau melalui lembaga pengelola zakat yang terpercaya."
+            ]
+        },
+
+        {
+            "tag": "user_q12",
+            "patterns": [
+                "Apa saja manfaat zakat?"
+            ],
+            "responses": [
+                "Zakat memiliki banyak manfaat, antara lain: 1. Membersihkan harta dari dosa, 2. Meningkatkan ketakwaan kepada Allah SWT, 3. Membantu fakir miskin dan orang - orang yang membutuhkan, 4. Mewujudkan keadilan sosial, 5. Memperkuat ekonomi umat Islam."
+            ]
+        },
+
+        {
+            "tag": "user_q13",
+            "patterns": [
+                "Apa hukum zakat?",
+                "Zakat hukumnya apa?",
+                "Bagaimana hukum zakat?"
+            ],
+            "responses": [
+                "Hukum zakat adalah wajib bagi setiap Muslim yang memenuhi syarat. Meninggalkan zakat termasuk dosa besar."
+            ]
+        },
+
+        {
+            "tag": "user_q14",
+            "patterns": [
+                "Apa saja hikmah zakat?"
+            ],
+            "responses": [
+                "Hikmah zakat antara lain: 1. Mensucikan harta, 2. Meningkatkan kepeduliaan sosial, 3. Membantu fakir miskin dan orang yang membutuhkan"
+            ]
+        },
+
+        {
+            "tag": "user_q15",
+            "patterns": [
+                "Jelaskan bagaimana cara menghitung zakat?"
+            ],
+            "responses": [
+                "Kamu dapat menggunakan zakat online seperti di link berikut ini : 'https://baznas.go.id/kalkulatorzakat'"     
+            ]
+        },
+
+        {
+            "tag": "user_q16",
+            "patterns": [
+                "Jelaskan tetang jenis - jenis zakat!",
+                "Jenis zakat ada apa aja ya?"
+            ],
+            "responses": [
+                "Secara umum, zakat terbagi menjadi dua jenis yakni zakat fitrah dan zakat maal. Zakat fitrah adalah zakat yang wajib dikeluarkan oleh setiap Muslim yang merdeka dan mampu, baik laki-laki maupun perempuan, pada bulan Ramadhan sebelum Shalat Idul Fitri. Besarnya zakat fitrah adalah 2,5 kg atau 3,5 liter bahan makanan pokok, seperti beras, gandum, kurma, atau jagung. sedangkan zakat maal adalah zakat yang wajib dikeluarkan atas harta kekayaan yang dimiliki oleh seorang Muslim. Jenis-jenis harta yang wajib dizakati di antaranya: 1. Emas dan perak, 2. Harta perniagaan, 3. Hasil pertaniah dan buah - buahan, 4. Binatang ternak, 5. Harta temuan, 6. Hasil tambang dan mineral, 7. penghasilan profesi, 8. Saham dan obligasi"
+            ]
+        },
+
+        {
+            "tag": "user_q17",
+            "patterns": [
+                "Apa yang dimaksud dengan infaq?"
+            ],
+            "responses": [
+                "Infaq adalah pengeluaran harta di jalan Allah SWT dengan tujuan mendekatkan diri kepada Allah SWT dan membantu orang lain."
+            ]
+        },
+
+        {
+            "tag": "user_q18",
+            "patterns": [
+                "Apa perbedaan antara infaq dan sedekah?"
+            ],
+            "responses": [
+                "Secara umum, infaq dan sedekah memiliki makna yang sama, yaitu pengeluaran harta di jalan Allah SWT. Namun, infaq lebih diartikan sebagai pengeluaran yang bersifat wajib, sedangkan sedekah lebih diartikan sebagai pengeluaran yang bersifat sukarela."
+            ]
+        },
+
+        {
+            "tag": "user_q19",
+            "patterns": [
+                "Apakah infaq wajib hukumnya?"
+            ],
+            "responses": [
+                "Infaq tidak wajib hukumnya, namun sangat dianjurkan. Infaq termasuk dalam amalan yang mendatangkan pahala dan keberkahan dari Allah SWT."
+            ]
+        },
+
+        {
+            "tag": "user_q20",
+            "patterns": [
+                "Kepada siapa infaq boleh disalurkan?"
+            ],
+            "responses": [
+                "Infaq boleh disalurkan kepada siapa saja yang membutuhkan, termasuk fakir miskin, anak yatim, orang yang terkena musibah, dan lain sebagainya."
+            ]
+        },
+
+        {
+            "tag": "user_q21",
+            "patterns": [
+                "Apakah ada batasan minimal atau maksimal untuk infaq?"
+            ],
+            "responses": [
+                "Tidak ada batasan minimal atau maksimal untuk infaq. Berapapun jumlahnya, asalkan ikhlas dan diniatkan untuk kebaikan, maka infaq akan diterima oleh Allah SWT."
+            ]
+        },
+
+        {
+            "tag": "user_q22",
+            "patterns": [
+                "Apa saja manfaat infaq bagi individu?"
+            ],
+            "responses": [
+                "Infaq dapat mendatangkan pahala dan keberkahan dari Allah SWT, membersihkan hati dari sifat kikir, dan meningkatkan rasa syukur atas nikmat yang telah diberikan."
+            ]
+        },
+
+        {
+            "tag": "user_q23",
+            "patterns": [
+                "Apa saja manfaat infaq bagi masyarakat?"
+            ],
+            "responses": [
+                "Infaq dapat membantu meringankan beban orang-orang yang membutuhkan, meningkatkan kesejahteraan masyarakat, dan mewujudkan keadilan sosial."
+            ]
+        },
+        
+        {
+            "tag": "user_q24",
+            "patterns": [
+                "Bagaimana infaq dapat membantu mewujudkan keadilan sosial?"
+            ],
+            "responses": [
+                "Infaq dapat membantu menjembatani kesenjangan antara orang kaya dan orang miskin, sehingga dapat membantu mewujudkan keadilan sosial."
+            ]
+        },
+
+        {
+            "tag": "user_q25",
+            "patterns": [
+                "Apa saja jenis-jenis infaq?"
+            ],
+            "responses": [
+                "Infaq dapat berupa uang, barang, jasa, dan lain sebagainya."
+            ]
+        },
+
+        {
+            "tag": "user_q26",
+            "patterns": [
+                "Apa contoh-contoh infaq yang dianjurkan?"
+            ],
+            "responses": [
+                "Contoh-contoh infaq yang dianjurkan antara lain: 1. Membangun masjid, 2. Membanu fakir miskin dan anak yatim., 3. Menyantuni orang yang terkena musibah., 4. Wakaf., 5. Zakat."
+            ]
+        },
+
+        {
+            "tag": "user_q27",
+            "patterns": [
+                "Apakah infaq dapat dilakukan dalam bentuk barang atau jasa?"
+            ],
+            "responses": [
+                "infaq dapat dilakukan dalam bentuk barang atau jasa. Contohnya, menyumbangkan pakaian layak pakai, makanan, atau tenaga untuk membantu orang lain."
+            ]
+        },
+
+        {
+            "tag": "user_q28",
+            "patterns": [
+                "Apakah ada dzikir yang lebih utama daripada yang lain?"
+            ],
+            "responses": [
+                "Setiap dzikir memiliki keutamaan dan manfaatnya masing-masing. Namun, beberapa dzikir memiliki keutamaan yang lebih khusus, seperti dzikir pagi dan petang, dzikir istighfar, dzikir tahmid, dan dzikir tasbih. Sebaiknya, muslim berusaha melakukan berbagai macam dzikir untuk mendapatkan manfaat yang beragam."
+            ]
+        },
+
+        {
+            "tag": "user_q29",
+            "patterns": [
+                "Apakah infaq dapat dilakukan secara langsung atau melalui lembaga?"
+            ],
+            "responses": [
+                "Infaq dapat dilakukan secara langsung kepada orang yang membutuhkan atau melalui lembaga yang terpercaya."
+            ]
+        },
+
+        {
+            "tag": "user_q30",
+            "patterns": [
+                "Bagaimana cara memilih lembaga infaq yang terpercaya?"
+            ],
+            "responses": [
+                "Berikut beberapa tips memilih lembaga infaq yang terpercaya: 1. Memiliki izin resmi dari pemerintah, 2. Memiliki track record yang baik., 3. Terbuka dan transparan dalam pengelolaan dana., 5. Memiliki program yang jelas dan terukur."
+            ]
+        },
+        
+        {
+            "tag": "user_q31",
+            "patterns": [
+                "Apa saja yang perlu diperhatikan dalam menyalurkan infaq?"
+            ],
+            "responses": [
+                "Berikut beberapa hal yang perlu diperhatikan dalam menyalurkan infaq: 1. Pastikan infaq disalurkan kepada orang atau lembaga yang tepat, 2. Pastikan infaq digunakan untuk tujuan yang sesuai dengan syariat Islam, 3. Pastikan infaq tidak digunakan untuk hal-hal yang haram  "
+            ]
+        },
+
+        {
+            "tag": "user_q32",
+            "patterns": [
+                "Bagaimana cara memastikan infaq yang kita berikan tepat sasaran?"
+            ],
+            "responses": [
+                "Berikut beberapa cara memastikan infaq yang kita berikan tepat sasaran: 1. Lakukan riset tentang orang atau lembaga yang ingin kita bantu, 2. Pantau dan evaluasi penggunaan dana infaq, 3.Mintalah laporan dan pertanggungjawaban dari orang atau lembaga yang menerima infaq  "
+            ]
+        },
+
+        {
+            "tag": "user_q33",
+            "patterns": [
+                "Apa yang dimaksud dengan sedekah ?"
+            ],
+            "responses": [
+                "Sedekah adalah pengeluaran harta di jalan Allah SWT dengan tujuan untuk mendekatkan diri kepada Allah SWT dan membantu orang lain."
+            ]
+        },
+
+        {
+            "tag": "user_q34",
+            "patterns": [
+                "Apa perbeadaam antara sedekah dan infaq?"
+            ],
+            "responses": [
+                "Secara umum, infaq dan sedekah memiliki makna yang sama, yaitu pengeluaran harta di jalan Allah SWT."
+            ]
+        },
+
+        {
+            "tag": "user_q35",
+            "patterns": [
+                "Apakah sedekah wajib hukumnya?"
+            ],
+            "responses": [
+                "Sedekah tidak wajib hukumnya, namun sangat dianjurkan. Sedekah termasuk dalam amalan yang mendatangkan pahala dan keberkahan dari Allah SWT."
+            ]
+        },
+
+        {
+            "tag": "user_q36",
+            "patterns": [
+                "Kepada siapa sedekah boleh disalurkan?"
+            ],
+            "responses": [
+                "Sedekah boleh disalurkan kepada siapa saja yang membutuhkan, termasuk fakir miskin, anak yatim, orang yang terkena musibah, dan lain sebagainya."
+            ]
+        },
+
+        {
+            "tag": "user_q37",
+            "patterns": [
+                "Apakah ada batasan minimal atau maksimal untuk sedekah?"
+            ],
+            "responses": [
+                "Tidak ada batasan minimal atau maksimal untuk sedekah. Berapapun jumlahnya, asalkan ikhlas dan diniatkan untuk kebaikan, maka sedekah akan diterima oleh Allah SWT."
+            ]
+        },
+
+        {
+            "tag": "user_q38",
+            "patterns": [
+                "Apa saja manfaat sedekah bagi individu?"
+            ],
+            "responses": [
+                "Sedekah dapat mendatangkan pahala dan keberkahan dari Allah SWT, membersihkan hati dari sifat kikir, dan meningkatkan rasa syukur atas nikmat yang telah diberikan.."
+            ]
+        },
+
+        {
+            "tag": "user_q39",
+            "patterns": [
+                "Apa saja manfaat sedekah bagi masyarakat?"
+            ],
+            "responses": [
+                "Sedekah dapat membantu meringankan beban orang-orang yang membutuhkan, meningkatkan kesejahteraan masyarakat, dan mewujudkan keadilan sosial."
+            ]
+        },
+
+        {
+            "tag": "user_q40",
+            "patterns": [
+                "Bagaimana sedekah dapat membantu mewujudkan keadilan sosial?"
+            ],
+            "responses": [
+                "Sedekah dapat membantu menjembatani kesenjangan antara orang kaya dan orang miskin, sehingga dapat membantu mewujudkan keadilan sosial."
+            ]
+        },
+
+        {
+            "tag": "user_q41",
+            "patterns": [
+                "Bagaimana sedekah dapat membantu meningkatkan kualitas hidup masyarakat?"
+            ],
+            "responses": [
+                "Sedekah dapat membantu meningkatkan kualitas pendidikan, kesehatan, dan infrastruktur di masyarakat."
+            ]
+        },
+
+        {
+            "tag": "user_q42",
+            "patterns": [
+                "Bagaimana sedekah dapat membantu pembangunan ekonomi umat Islam?"
+            ],
+            "responses": [
+                "Sedekah dapat membantu mengembangkan usaha kecil dan menengah (UKM) milik umat Islam, sehingga dapat membantu membangun ekonomi umat Islam"
+            ]
+        },
+
+        {
+            "tag": "user_q43",
+            "patterns": [
+                "Apa saja jenis-jenis sedekah?"
+            ],
+            "responses": [
+                "Sedekah dapat berupa uang, barang, jasa, dan lain sebagainya."
+            ]
+        },
+
+        {
+            "tag": "user_q44",
+            "patterns": [
+                "Apa contoh-contoh sedekah yang dianjurkan?"
+            ],
+            "responses": [
+                "Contoh-contoh sedekah yang dianjurkan antara lain: 1. Memberikan makanan kepada orang yang lapar, 2. Memberikan pakaian kepada orang yang tidak punya, 3. Membangun masjid, 4. Membantu fakir miskin dan anak yatim, 5. Menyantuni orang yang terkena musibah"
+            ]
+        },
+
+        {
+            "tag": "user_q45",
+            "patterns": [
+                "Bagaimana bacaan niat zakat fitrah?"
+            ],
+            "responses": [
+                "Niat Zakat Fitrah untuk Diri Sendiri: نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ الْفِطْرِ عَنْ نَفْسِي فَرْضًا لِلَّهِ تَعَالَى , Niat zakat fitrah untuk orang lain :نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ الْفِطْرِ عَنْ (nama orang) فَرْضًا لِلَّهِ تَعَالَى"
+            ]
+        },
+
+        {
+            "tag": "user_q46",
+            "patterns": [
+                "Apakah yang dimaksud dengan Zakat Profesi?"
+            ],
+            "responses": [
+                "Zakat profesi atau penghasilan adalah zakat yang dikeluarkan dari hasil profesi (pekerjaan) seseorang, baik dokter, arsitek, dosen, notaris, maupun karyawan. Zakat profesi bisa dianalogikan pada dua hal sekaligus, yaitu pada zakat pertanian dan pada zakat emas dan perak. Dari segi nisab dapat dianalogikan dengan zakat pertanian, yaitu sebesar lima ausaq atau senilai 653 kg padi atau gandum dan dikeluarkan pada saat menerimanya. Karena disamakan dengan zakat pertanian, maka pada zakat profesi tidak ada ketentuan haul. Ketentuan waktu penyalurannya adalah pada saat menerimanya. Penganalogian zakat profesi dengan zakat pertanian dilakukan karena ada kemiripan antara keduanya. Yaitu, pada keduanya hasil yang diperoleh tidak terkait dengan hasil sebelumnya."
+            ]
+        },
+
+        {
+            "tag": "user_q47",
+            "patterns": [
+                "Apa itu wakaf?"
+            ],
+            "responses": [
+                " Wakaf adalah perbuatan hukum wakif untuk memisahkan dan/atau menyerahkan sebagian harta benda miliknya untuk dimanfaatkan kepentingan umum dan/atau untuk keperluan agama Islam berdasarkan syariah."
+            ]
+        },
+
+        {
+            "tag": "user_q48",
+            "patterns": [
+                "Siapa yang dapat melakukan wakaf?"
+            ],
+            "responses": [
+                "Setiap orang yang cakap hukum, baik laki-laki maupun perempuan, dapat berwakaf."
+            ]
+        },
+
+        {
+            "tag": "user_q49",
+            "patterns": [
+                "Apa saja yang bisa diwakafkan?"
+            ],
+            "responses": [
+                "Harta benda yang bisa diwakafkan adalah benda tidak bergerak, seperti tanah dan bangunan, dan benda bergerak, seperti uang, emas, dan perhiasan."
+            ]
+        },
+
+        {
+            "tag": "user_q50",
+            "patterns": [
+                "Bagaimana cara mewakafkan harta benda?"
+            ],
+            "responses": [
+                "Pewakaf dapat mewakafkan harta bendanya dengan membuat akta ikrar wakaf di hadapan Pejabat Pembuat Akta Ikrar Wakaf (PPAIW)."
+            ]
+        },
+
+        {
+            "tag": "user_q51",
+            "patterns": [
+                "Apa manfaat wakaf?"
+            ],
+            "responses": [
+                "Wakaf memiliki banyak manfaat, di antaranya: 1. Pahala yang terus mengalir bagi wakaf bahkan setelah meninggal dunia"
+            ]
+        },
+
+        {
+            "tag": "user_q52",
+            "patterns": [
+                "Bagaimana cara mewakafkan harta benda?"
+            ],
+            "responses": [
+                "Harta benda wakaf dikelola oleh nazhir, yaitu pihak yang ditunjuk oleh wakif untuk mengelola dan mengembangkan harta benda wakaf."
+            ]
+        },
+
+        {
+            "tag": "user_q53",
+            "patterns": [
+                "Apa saja yang bisa dilakukan dengan harta benda wakaf?"
+            ],
+            "responses": [
+                "Harta benda wakaf dapat digunakan untuk berbagai keperluan, di antaranya: 1. Pendidikan, 2. Kesehatan, 3. Sosial, 4. Keagamaan, 5. Ekonomi"
+            ]
+        },
+
+        {
+            "tag": "user_q54",
+            "patterns": [
+                "Bagaimana jika harta benda wakaf tidak lagi bermanfaat?"
+            ],
+            "responses": [
+                "Harta benda wakaf yang tidak lagi bermanfaat dapat diubah peruntukannya dengan persetujuan dari nazhir dan BWI."
+            ]
+        },
+
+        {
+            "tag": "user_q55",
+            "patterns": [
+                "Apa saja kendala dalam pengembangan wakaf di Indonesia?"
+            ],
+            "responses": [
+                "Beberapa kendala dalam pengembangan wakaf di Indonesia, di antaranya: 1. Kurangnya pemahaman masyarakat seputar wakaf, 2. Masih banyaknya harta benda wakaf yang tidak bersertifikat, 3. Kurangnya SDM yang profesional dalam mengelola harta benda wakaf"
+            ]
+        },
+
+        {
+            "tag": "user_q56",
+            "patterns": [
+                "Apakah ada hadits / Ayat Al - Quran yang mewajibkan kita untuk menunaikan zakat? "
+            ],
+            "responses": [
+                "بُنِىَ الإِسْلاَمُ عَلَى خَمْسٍ شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ ، وَإِقَامِ الصَّلاَةِ ، وَإِيتَاءِ الزَّكَاةِ ، وَالْحَجِّ ، وَصَوْمِ رَمَضَانَ yang artinya: “Islam dibangun di atas lima perkara: bersaksi bahwa tidak ada ilah (sesembahan) yang berhak disembah melainkan Allah dan Muhammad adalah utusan-Nya; menegakkan shalat; menunaikan zakat; menunaikan haji; dan berpuasa di bulan Ramadhan.” [HR. Bukhari dan Muslim], selain itu ada juga ayat Al - Qur'an yang mewajibkan kita dalam menunaikan zakat yakni terdapat dalam surat Al Baqarah ayat 43 yang berbunyi وَأَقِيمُوا الصَّلَاةَ وَآَتُوا الزَّكَاةَ yang artinya: “Dan dirikanlah shalat, tunaikanlah zakat dan ruku’lah beserta orang-orang yang ruku’” [QS. Al-Baqarah: 43]."
+            ]
+        },
+        
+        {
+            "tag": "user_q57",
+            "patterns": [
+                "Apa keutamaan dari menunaikan zakat?"
+            ],
+            "responses": [
+                "Terdapat 13 keutamaan apabila kita menunaikan zakat, antara lain yakni : 1. Menyempurnakan Keislaman seorang Hamba, 2. Menunjukkan Kebenaran Iman Seseorang, 3. Membuat Keimanan Seseorang menjadi Sempurna, 4. Sebab Masuk Surga, 5. Menjadikan Masyarakat Islam seperti Keluarga Besar (Satu Kesatuan), 6. Memadamkan Kemarahan Orang Miskin, 7. Menghalangi Berbagai Bentuk Pencurian, Pemaksaan, dan Perampasan, 8. Menyelamatkan Seseorang dari Panasnya Hari Kiamat, 9. Seseorang akan lebih mengenal Hukum dan Aturan Allah, 10. Menambah Harta, 11. Merupakan sebab turunnya banyak Kebaikan, 12. Zakat akan Meredam Murka Allah, 13. Dosa akan Terampuni"
+            ]
+        },
+
+        {
+            "tag": "user_q58",
+            "patterns": [
+                "Apa itu zakat crypto currency?"
+            ],
+            "responses": [
+                "Zakat cryptocurrency adalah topik yang relatif baru karena cryptocurrency sendiri merupakan penemuan baru. Belum ada fatwa universal yang disepakati tentang hal ini, tetapi ada beberapa pendapat berbeda dari ulama Islam."
+            ]
+        },
+
+        {
+            "tag": "user_q59",
+            "patterns": [
+                "Bagaimana pandangan ulama tentang zakat cryptocurrency?"
+            ],
+            "responses": [
+                "Dua sudut pandang utama: 1. Wajib, Pandangan ini menganggap cryptocurrency sebagai aset berharga yang mirip dengan emas atau perak. Pada prinsipnya, cryptocurrency wajib dizakati jika memenuhi nisab (ambang batas minimum). 2. Tidak wajib, Pandangan ini berpendapat bahwa cryptocurrency tidak memiliki beberapa karakteristik utama dari bentuk kekayaan tradisional yang memenuhi syarat untuk zakat. Contohnya, cryptocurrency tidak berwujud dan nilainya belum mapan."
+            ]
+        }
+        
+    ]
+}

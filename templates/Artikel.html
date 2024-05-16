@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles/chat.css">
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <link rel="stylesheet" href="/static/styles/typing.css">
+    <link rel="stylesheet" href="/static/styles/artikel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Djalaluddin Pane Foundation </title>
+    <link rel="icon" href="{{ url_for('static', filename='Image/Logo DPF.png') }}">
+</head>
+
+<body>
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Smart Ziswaf</h4>
+                        <p style="text-align: left;" class="chatbox__description--header">Fitur ChatterBot (ChatBot) yang siap membantu kamu untuk menjawab pertanyaan seputar ZISWAF</p>
+                    </div>
+                </div>
+                <main class="msger-chat">
+                  <div class="msg-body">
+                        <div class="msg left-msg">
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Smart Ziswaf dibuat oleh Tim IT Djalaluddin Pane Foundation</div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </main>
+                <div class="chatbox__footer">
+                    <form class="msger-inputarea">
+                        <input type="text" class="msger-input" id="textInput" placeholder="Masukkan pesanmu disini...">
+                        <button type="submit" class="msger-send-btn">Kirim</button>
+                      </form>
+                </div>
+            </div>
+            <div class="chatbox__button">
+              <button></button>
+            </div>
+        </div>
+        <!--  -->
+        <!-- <div id="page-wrapper"> -->
+
+          <!-- Header -->
+            <!-- <div id="header-wrapper">
+              <header id="header" class="container"> -->
+    
+                <!-- Logo -->
+                <!-- <div class="logo">
+                  <img src='/static/Image/Logo DPF.png' alt="" class="img_logo">
+                </div> -->
+    
+                <!-- Nav -->
+                  <!-- <nav class="nav">
+                    <ul>
+                      <li><a href="/">Beranda</a></li>
+                      <li class="current"><a href="/Artikel">Artikel</a></li>
+                      <li><a href="/About">Tentang Kami</a></li>
+                    </ul>
+                  </nav>
+    
+              </header>
+            </div> -->
+
+            	<!-- Navbar awal -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="/static/Image/Logo DPF.png" alt="Logo" width="40" height="24" class="d-inline-block align-text-top" />
+					Djalaluddin Pane Foundation</a
+				>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/About">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/Artikel">Artikel</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Navbar akhir -->
+
+            <!-- Main -->
+            <!-- <div class="main">
+              <ul class="cards">
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="/static/Image/artikel 1.jpeg" alt="" />
+                    </div>
+                    <div class="card_content">
+                      <h2 class="card_title">MPZ Binaan LAZNAS DPF KUA Kecamatan Bilah Hulu diresmikan dalam kegiatan Jambore Majelis Taklim. </h2>
+                      <div class="card_text">
+                        <p>Mitra Pengelola ZISWAF binaan dari LAZNAS DPF diresmikan dalam kegiatan Jambore se Kecamatan Bilah Hulu di Lapangan Pematang Seleng pada Sabtu 18 November 2023. Kegiatan ini dihadiri oleh 50 kelompok Majelis Taklim se-kecamatan Bilah Hulu.!</p>
+                        <hr />
+                      </div>
+                    </div>
+                    <a href="https://dpf.or.id/mpz-binaan-laznas-dpf-kua-kecamatan-bilah-hulu-diresmikan-dalam-kegiatan-jambore-majelis-taklim/" class="read-more"> Read more </a> -->
+                      <!-- <span class="sr-only">about this is some title</span> -->
+                  <!-- </div>
+                </li>
+            
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="/static/Image/artikel 2.webp" alt="" />
+                    </div>
+                    <div class="card_content">
+                      <h2 class="card_title">LAZ DJALALUDDIN PANE Raih Penghargaan Nasional untuk Pelaporan Terbaik di BAZNAS AWARD 2024</h2>
+                      <div class="card_text">
+                        <p>Lembaga LAZ DJALALUDDIN PANE (DPF) baru-baru ini meraih penghargaan sebagai Institusi Zakat Nasional (LAZ NASIONAL) dengan prestasi terbaik dalam pelaporan. Penghargaan tersebut diberikan dalam acara BAZNAS AWARD 2024 yang diselenggarakan di Hotel Bidakara dan dihadiri oleh Menteri Agama, H. Yaqut Cholil Qoumas.</p>
+                      </div>
+                    </div>
+                    <a href="https://dpf.or.id/laz-djalaluddin-pane-raih-penghargaan-nasional-untuk-pelaporan-terbaik-di-baznas-award-2024/" class="read-more">Read more </a> 
+                  </div>
+                </li>
+            
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="/static/Image/artikel 3.jpg" alt="" />
+                    </div>
+                    <div class="card_content">
+                      <h2 class="card_title">MAJELIS ULAMA INDONESIA (MUI) SUKSES MENYELANGGARAKAN BIMTEK PEMANFAATAN TEKNOLOGI AI: MENYAPA MASA DEPAN DENGAN CERDAS </h2>
+                      <div class="card_text">
+                        <p>Pada tanggal 10-11 Februari 2024, Majelis Ulama Indonesia (MUI) melalui Komisi Pendidikan dan Kaderisasi telah menggelar Bimbingan Teknis (BIMTEK) Pemanfaatan Teknologi Digital AI untuk Bekerja, Mengajar, dan Belajar. Acara ini dihadiri oleh 70 peserta secara tatap muka dan 300 peserta daring, menciptakan forum yang inklusif dan mendalam mengenai pemanfaatan teknologi kecerdasan buatan (AI).</p>
+                      </div>
+                    </div>
+                    <a href="https://dpf.or.id/majelis-ulama-indonesia-mui-sukses-menyelanggarakan-bimtek-pemanfaatan-teknologi-ai-menyapa-masa-depan-dengan-cerdas/" class="read-more">Read more </a>
+                  </div>
+                </li>
+                
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="/static/Image/artikel 4.jpg" alt="" />
+                    </div>
+                    <div class="card_content">
+                      <h2 class="card_title">DPF Gelar Roadshow #JanganLupakanPalestina: Sukses Kumpulkan Dana Rp 10.100.000 di MAN 2 Deli Serdang </h2>
+                      <div class="card_text">
+                        <p>Djalaludin Pane Foundation (DPF) dengan penuh semangat menjalankan roadshow pertamanya di Man 2 Deli Serdang dengan tema #JanganLupakanPalestina. Kegiatan ini mendapat sambutan luar biasa dari masyarakat, dan Alhamdulillah, berhasil menghimpun dana sebesar Rp 10.100.000,-.
+                        </p>
+                      </div>
+                    </div>
+                    <a href="https://dpf.or.id/dpf-gelar-roadshow-sukses-galand-donasi-di-man2-serdang/" class="read-more">Read more </a>
+                  </div>
+                </li>
+
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="/static/Image/artikel 5.jpg" alt="" />
+                    </div>
+                    <div class="card_content">
+                      <h2 class="card_title">Djalaluddin Pane Foundation (DPF) Medan Menggelar Yasin Akbar Memperingati Hari Isra' Mi'raj di Kabupaten Labuhanbatu</h2>
+                      <div class="card_text">
+                        <p>Djalaluddin Pane Foundation (DPF) Medan dengan sukacita mengumumkan pelaksanaan Yasin Akbar dalam rangka memperingati Hari Isra' Mi'raj di Kabupaten Labuhanbatu. Acara berlangsung dengan khidmat di Masjid Agung Rantauprapat pada Kamis, 8 Februari 2024.</p>
+                      
+                      </div>
+                    </div>
+                    <a href="https://dpf.or.id/djalaluddin-pane-foundation-dpf-medan-menggelar-yasin-akbar-memperingati-hari-isra-miraj-di-kabupaten-labuhanbatu/" class="read-more">Read more </a> 
+                  </div>
+                </li>
+
+                <li class="cards_item">
+                  <div class="card">
+                    <div class="card_image">
+                      <img src="/static/Image/artikel 6.jpg" alt="" />
+                    </div>
+                    <div class="card_content">
+                      <h2  class="card_title">Djalaludin Pane Foundation (DPF) dan Teman Hijrah Resmi Jalin Kerjasama Sebagai Mitra Pengelola Zakat (MPZ)</h2>
+                      <div class="card_text">
+                        <p>Dalam sebuah tonggak sejarah yang berarti, Djalaludin Pane Foundation (DPF) dan Teman Hijrah telah resmi menandatangani Memorandum of Understanding (MoU) untuk menjalin kerjasama sebagai Mitra Pengelola Zakat (MPZ).</p>
+                      </div>
+                    </div>
+                    <a href="https://dpf.or.id/dpf-dan-teman-hijrah-resmi-jalin-kerjasama-sebagai-mitra-pengelola-zakat/" class="read-more">Read more </a> 
+                  </div>
+                </li>
+              </ul>
+            </div> -->
+            <section class="bg-success-subtle" style="padding: 30px;">
+              <h1 class="text-center fw-semibold ">Berita terbaru DPF</h1>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/static/Image/artikel 1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">MPZ Binaan LAZNAS DPF KUA Kecamatan Bilah Hulu diresmikan dalam kegiatan Jambore Majelis Taklim.</h5>
+                      <p class="card-text">Mitra Pengelola ZISWAF binaan dari LAZNAS DPF diresmikan dalam kegiatan Jambore se Kecamatan Bilah Hulu di Lapangan Pematang Seleng pada Sabtu 18 November 2023. Kegiatan ini dihadiri oleh 50 kelompok Majelis Taklim se-kecamatan Bilah Hulu.!</p>
+                      <a href="https://dpf.or.id/mpz-binaan-laznas-dpf-kua-kecamatan-bilah-hulu-diresmikan-dalam-kegiatan-jambore-majelis-taklim/" class="btn btn-success text-light text-center">Read more</a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 1 years ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/static/Image/artikel 2.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">LAZ DJALALUDDIN PANE Raih Penghargaan Nasional untuk Pelaporan Terbaik di BAZNAS AWARD 2024</h5>
+                      <p class="card-text">Lembaga LAZ DJALALUDDIN PANE (DPF) baru-baru ini meraih penghargaan sebagai Institusi Zakat Nasional (LAZ NASIONAL) dengan prestasi terbaik dalam pelaporan. Penghargaan tersebut diberikan dalam acara BAZNAS AWARD 2024 yang diselenggarakan di Hotel Bidakara dan dihadiri oleh Menteri Agama, H. Yaqut Cholil Qoumas.</p>
+                      <a href="https://dpf.or.id/laz-djalaluddin-pane-raih-penghargaan-nasional-untuk-pelaporan-terbaik-di-baznas-award-2024/" class="btn btn-success text-light">Read more</a>
+
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/static/Image/artikel 3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">MAJELIS ULAMA INDONESIA (MUI) SUKSES MENYELANGGARAKAN BIMTEK PEMANFAATAN TEKNOLOGI AI: MENYAPA MASA DEPAN DENGAN CERDAS </h5>
+                      <p class="card-text">Pada tanggal 10-11 Februari 2024, Majelis Ulama Indonesia (MUI) melalui Komisi Pendidikan dan Kaderisasi telah menggelar Bimbingan Teknis (BIMTEK) Pemanfaatan Teknologi Digital AI untuk Bekerja, Mengajar, dan Belajar. Acara ini dihadiri oleh 70 peserta secara tatap muka dan 300 peserta daring, menciptakan forum yang inklusif dan mendalam mengenai pemanfaatan teknologi kecerdasan buatan (AI).</p>
+                      <a href="https://dpf.or.id/majelis-ulama-indonesia-mui-sukses-menyelanggarakan-bimtek-pemanfaatan-teknologi-ai-menyapa-masa-depan-dengan-cerdas/" class="btn btn-success text-light">Read more</a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/static/Image/artikel 4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">DPF Gelar Roadshow #JanganLupakanPalestina: Sukses Kumpulkan Dana Rp 10.100.000 di MAN 2 Deli Serdang </h5>
+                      <p class="card-text">Djalaludin Pane Foundation (DPF) dengan penuh semangat menjalankan roadshow pertamanya di Man 2 Deli Serdang dengan tema #JanganLupakanPalestina. Kegiatan ini mendapat sambutan luar biasa dari masyarakat, dan Alhamdulillah, berhasil menghimpun dana sebesar Rp 10.100.000,-.</p>
+                      <a href="https://dpf.or.id/dpf-gelar-roadshow-sukses-galand-donasi-di-man2-serdang/" class="btn btn-success text-light">Read more</a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/static/Image/artikel 5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Djalaluddin Pane Foundation (DPF) Medan Menggelar Yasin Akbar Memperingati Hari Isra' Mi'raj di Kabupaten Labuhanbatu</h5>
+                      <p class="card-text">Djalaluddin Pane Foundation (DPF) Medan dengan sukacita mengumumkan pelaksanaan Yasin Akbar dalam rangka memperingati Hari Isra' Mi'raj di Kabupaten Labuhanbatu. Acara berlangsung dengan khidmat di Masjid Agung Rantauprapat pada Kamis, 8 Februari 2024.</p>
+                      <a href="https://dpf.or.id/djalaluddin-pane-foundation-dpf-medan-menggelar-yasin-akbar-memperingati-hari-isra-miraj-di-kabupaten-labuhanbatu/" class="btn btn-success text-light">Read more</a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="/static/Image/artikel 6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Djalaludin Pane Foundation (DPF) dan Teman Hijrah Resmi Jalin Kerjasama Sebagai Mitra Pengelola Zakat (MPZ)</h5>
+                      <p class="card-text">Dalam sebuah tonggak sejarah yang berarti, Djalaludin Pane Foundation (DPF) dan Teman Hijrah telah resmi menandatangani Memorandum of Understanding (MoU) untuk menjalin kerjasama sebagai Mitra Pengelola Zakat (MPZ).</p>
+                      <a href="https://dpf.or.id/dpf-dan-teman-hijrah-resmi-jalin-kerjasama-sebagai-mitra-pengelola-zakat/" class="btn btn-success text-light">Read more</a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+      <!-- Footer -->
+      <div class="footer bg-dark text-light">
+				<footer>
+					<div class="alamat">
+						<h2>Djalaluddin Pane Foundation</h2>
+						<a href="https://maps.app.goo.gl/25bbgu3xGGwdEPhY7" >
+							<p class="text-light">
+								Jl. Setia Budi No.123, Tj. Sari, Kec. Medan Selayang,<br />
+								Kota Medan, Sumatera Utara 20132
+							</p>
+						</a>
+						<p>(Kantor Medan)</p>
+
+						<a href="https://maps.app.goo.gl/PTaa7dcdS7E57U1Y6">
+							<p class="text-light">
+								Signature Park Grande, Jl. Letjen M.T. Haryono No.Kav. 20, RT.4/RW.1, Cawang,<br />
+								Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13630
+							</p>
+						</a>
+						<p>(Kantor Jakarta)</p>
+						<p>&copy; Djalaluddin Pane Foundation</p>
+					</div>
+
+					<div class="Footer">
+						<h2>Tentang Kami</h2>
+						<p><a href="https://dpf.or.id/tentang-kami/" class="text-light">Sejarah</a></p>
+						<p><a href="https://dpf.or.id/visi-misi/" class="text-light">Visi Misi</a></p>
+						<p><a href="https://dpf.or.id/budaya-kerja/" class="text-light">Budaya kerja</a></p>
+						<p><a href="https://dpf.or.id/rekening/" class="text-light">Rekening</a></p>
+						<p><a href="https://dpf.or.id/laporan/" class="text-light">Laporan</a></p>
+						<p><a href="https://docs.google.com/document/d/1KgDll-1XhL1ju2Uhdw7iBIUASczEs7UvVzfjjQwZtUI/edit?usp=sharing" class="text-light">Daftar Pertanyaan Smart Ziswaf</a></p>
+					</div>
+
+					<div class="mediaSosial">
+						<div>
+							<h2>Media Sosial</h2>
+						</div>
+						<div class="icon">
+							<a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng==" class="bg-light rounded">
+								<img src="/static/Image/instagram.png" alt="Instagram Icon" style="width: 50px; height: auto" />
+							</a>
+
+							<a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" target="_blank">
+								<img src="/static/Image/whatsapp.png" alt="WhatsApp Icon" style="width: 50px; height: auto" id="##WhatsApp" class="bg-light rounded"/>
+							</a>
+
+							<a href="https://www.youtube.com/@dpfofficial">
+								<img src="/static/Image/youtube.png" alt="YouTube Icon" style="width: 50px; height: auto" class="bg-light rounded" />
+							</a>
+
+							<a href="mailto:info@dpf.or.id">
+								<img src="/static/Image/Gmail.png" alt="Gmail Icon" style="width: 50px; height: auto" class="bg-light rounded" />
+							</a>
+						</div>
+					</div>
+				</footer>
+			</div>
+    
+
+    <script src="{{ url_for('static', filename='js/Chat.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+<!-- Chatbot Processing Start  -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/all.js') }}"></script>
+
+<script>
+  // Getting the data(s) from the form msger
+  const msgerForm = get(".msger-inputarea");
+  const msgerInput = get(".msger-input");
+  const msgerChat = get(".msger-chat");
+
+  const BOT_NAME = "Smart Ziswaf";
+  const PERSON_NAME = "Kamu";
+
+  msgerForm.addEventListener("submit", event => {
+    event.preventDefault();
+
+    const msgText = msgerInput.value;
+    if (!msgText) return;
+
+    appendMessage(PERSON_NAME, "right", msgText);
+    msgerInput.value = "";
+    botResponse(msgText);
+  });
+
+  function appendMessage(name, side, text) {
+    //   Simple solution for small apps
+    const msgHTML = `
+    <div class="msg ${side}-msg">
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">${name}</div>
+          <div class="msg-info-time">${formatDate(new Date())}</div>
+        </div>
+
+        <div class="msg-text">${text}</div>
+      </div>
+    </div>
+    `;
+
+    msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+    msgerChat.scrollTop += 500;
+  }
+
+  function botResponse(rawText) {
+    // Bot Response
+    $.get("/get", { msg: rawText }).done(function (data) {
+      console.log(rawText);
+      console.log(data);
+      const msgText = data;
+      appendMessage(BOT_NAME, "left", msgText);
+
+    });
+
+  }
+
+  // Utils
+  function get(selector, root = document) {
+    return root.querySelector(selector);
+  }
+
+  function formatDate(date) {
+    const h = "0" + date.getHours();
+    const m = "0" + date.getMinutes();
+
+    return `${h.slice(-2)}:${m.slice(-2)}`;
+  }
+</script>
+</body>
+<!-- Chatbot Processing End  -->
+
+</html>

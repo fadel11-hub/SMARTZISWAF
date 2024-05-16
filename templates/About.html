@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles/About.css">
+    <title>Djalaluddin Pane Foundation</title>
+    <link rel="icon" href="{{ url_for('static', filename='Image/Logo DPF.png') }}">
+</head>
+
+<body>
+          <!-- Header -->
+          <!-- <header>
+            <nav>   
+            <div>
+                <img src="/static/Image/Logo DPF.png" alt="DPF Logo">
+                <h1 class="Logo">Djalaluddin Pane Foundation</h1>
+            </div>
+                <ul>
+                    <li class="button button-black "><a href="/">Beranda</a></li>
+                    <li class="button button-black"><a href="/Artikel" >Artikel</a></li>
+                    <li class="button button-black"><a href="/About" >Tentang Kami</a></li>
+                </ul>
+            </nav>
+            </header>     -->
+ 
+            		<!-- Navbar awal -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="/static/Image/Logo DPF.png" alt="Logo" width="40" height="24" class="d-inline-block align-text-top" />
+					Djalaluddin Pane Foundation</a
+				>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link " aria-current="page" href="/">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/About">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/Artikel">Artikel</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Navbar akhir -->
+
+
+            <!-- Main -->
+        <!-- <div class="main">
+            <div class="card-main-title ">
+                <h1>Struktur Organisasi</h1>
+                <h2>Djalaluddin Pane Foundation</h2>
+            </div>
+            <div class="cards">
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Irfana.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Irfana Steviano, S.Pd., M.Ed</p>
+                    <p>Chief Executive Officer</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Arindya-Yulia-FR-M.Psi-CRSOHuman-Resources-Development-Head.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Arindya Yulia FR, M.Psi, CRSO</p>
+                    <p>Human Resources Development Head</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Program-Head-Topan-Mai-Disyam.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Topan Mai Disyam</p>
+                    <p>Program Head</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Fundraising-HeadMuhamad-Idris-Fadilah-SE.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Muhamad Idris Fadilah, S.E</p>
+                    <p>Fundraising Head</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Makmur-MunirProgram-Associate.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Makmur Munir</p>
+                    <p>Program Associate</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Program-AssociateIsman-Maulana-Amd.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Isman Maulana, Amd</p>
+                    <p>Program Associate</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Farhan-Hawari-Harahap-S.-TPProgram-Associate.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Farhan Hawari Harahap, S.TP</p>
+                    <p>Program Associate</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Ahmad-Syah-Alfarabi-S.AgProgram-Associate.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Ahmad Syah Alfarabi, S.Ag</p>
+                    <p>Program Associate</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Social-Media-SpecialistIrfan-Syahputra-S.I.kom_.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Irfan Syahputra, S.Ikom</p>
+                    <p>Social Media Specialist</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Digital-Marketing-SpecialistIrvan-Nahrowi-Ramdani.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Irvan Nahrowi, S.H</p>
+                    <p>Digital Marketing Specialist</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Digital-Content-SpecialistIin-Setyani-Amd.Sn_.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Iin Setyani, Amd.Sn</p>
+                    <p>Digital Content Specialist</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Digital-Content-SpecialistMuhammad-Ichsan-Nurfalah-Amd.Sn_-1024x1024.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Muhammad Ichsan Nurfalah, S.Sn</p>
+                    <p>Digital Content Specialist</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="cardItems">
+                <div class="card_image">
+                    <img src="/static/Image/karyawan/Bagus-Prastya-S.AgProgram-Associate.webp" alt="">
+                </div>
+                <div class="cardcontent">
+                    <p>Bagus Prastya, S.Ag</p>
+                    <p>Fundraising Head</p>
+                    <p>Employee</p>
+                    <hr>
+                </div>
+            </div>
+
+          <div class="cardItems">
+                <div class="card_image">
+                        <img src="/static/Image/karyawan/Julia-Prastia-Anggun-S.-AkunCustomer-Relationship-Specialist.webp" alt="">
+                    </div>
+                    <div class="cardcontent">
+                        <p>Julia Prastia Anggun, S.Akun</S></p>
+                        <p>Customer Relationship Specialist</S></p>
+                        <p>Employee</S></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="cardItems">
+                    <div class="card_image">
+                        <img src="/static/Image/karyawan/Customer-Relationship-SpecialistSinta-Awalinuari-S.I.Kom_.webp" alt="">
+                    </div>
+                    <div class="cardcontent">
+                        <p>Sinta Awalinuari, S.Ikom</p>
+                        <p>Customer Relationship Specialist</p>
+                        <p>Employee</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="cardItems">
+                    <div class="card_image">
+                        <img src="/static/Image/karyawan/Salwa.png" alt="">
+                    </div>
+                    <div class="cardcontent">
+                        <p>Salwa Fahira, S.H.</p>
+                        <p>Legal and Human Resource Development</p>
+                        <p>Internship Employee</p>
+                        <hr>
+                    </div>
+                </div>
+                
+                <div class="cardItems">
+                    <div class="card_image">
+                        <img src="/static/Image/karyawan/Haykal.png" alt="">
+                    </div>
+                    <div class="cardcontent">
+                        <p>Muhammad Haykal A, S.Kom</p>
+                        <p>Full Stack Python Developer</p>
+                        <p>Internship Employee</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="cardItems">
+                    <div class="card_image">
+                        <img src="/static/Image/karyawan/Fadel.png" alt="">
+                    </div>
+                    <div class="cardcontent">
+                        <p>Fadel Amili, S.Kom</p>
+                        <p>Front End Developer</p>
+                        <p>Internship Employee</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>     -->
+
+<!-- Main -->
+
+<section class="bg-success-subtle" style="padding: 20px;">
+    <div class="card text-center" >
+        <h2 class="fw-bold">Struktur Organisasi</h2>
+        <h2 class="fw-bold">Djalaluddin Pane Foundation</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-5 g-3" style="padding: 20px;">
+       <div class="col">
+        <div class="card h-100">
+        <img src="/static/Image/Karyawan/Irfana.webp" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-semibold">Irfana Steviano, S.Pd., M.Ed</h5>
+          <p class="card-text fw-semibold">Chief Executive Officer</p>
+        </div>
+
+        <ul class="list-group list-group-flus">
+          <li class="list-group-item text-center">Employee </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/static/Image/Karyawan/Arindya-Yulia-FR-M.Psi-CRSOHuman-Resources-Development-Head.webp" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-semibold">Arindya Yulia FR, M.Psi, CRSO</h5>
+          <p class="card-text fw-semibold">Human Resources Development Head</p>
+        </div>
+        <ul class="list-group list-group-flus">
+          <li class="list-group-item text-center">Employee </li>
+        </ul>
+          </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/static/Image/Karyawan/Program-Head-Topan-Mai-Disyam.webp" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-semibold">Topan Mai Disyam</h5>
+          <p class="card-text fw-semibold">Program Head</p>
+        </div>
+
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+  
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/static/Image/Karyawan/Fundraising-HeadMuhamad-Idris-Fadilah-SE.webp" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-semibold">Muhamad Idris Fadilah, S.E</h5>
+          <p class="card-text fw-semibold">Fundraising Head</p>
+        </div>
+        <ul class="list-group list-group-flus">
+          <li class="list-group-item text-center">Employee </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Makmur-MunirProgram-Associate.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Makmur Munir</h5>
+            <p class="card-text fw-semibold">Program Associate</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+  
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Program-AssociateIsman-Maulana-Amd.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Isman Maulana, Amd</h5>
+            <p class="card-text fw-semibold">Program Associate</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+  
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Farhan-Hawari-Harahap-S.-TPProgram-Associate.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Farhan Hawari Harahap, S.TP</h5>
+            <p class="card-text fw-semibold">Program Associate</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+  
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Ahmad-Syah-Alfarabi-S.AgProgram-Associate.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Ahmad Syah Alfarabi, S.Ag</h5>
+            <p class="card-text fw-semibold">Program Associate</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+  
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Social-Media-SpecialistIrfan-Syahputra-S.I.kom_.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Irfan Syahputra, S.Ikom</h5>
+            <p class="card-text fw-semibold">Social Media Specialist</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Digital-Marketing-SpecialistIrvan-Nahrowi-Ramdani.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Irvan Nahrowi, S.H</h5>
+            <p class="card-text fw-semibold">Digital Marketing Specialist</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Digital-Content-SpecialistIin-Setyani-Amd.Sn_.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Iin Setyani, Amd.Sn</h5>
+            <p class="card-text fw-semibold">Digital Content Specialist</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Digital-Content-SpecialistMuhammad-Ichsan-Nurfalah-Amd.Sn_-1024x1024.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Muhammad Ichsan Nurfalah, S.Sn</h5>
+            <p class="card-text fw-semibold">Digital Content Specialist</p>
+          </div>
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Helmisari_Dwi_Putri_-_Spesialis_Marketplace-removebg-preview.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Helmisari Dwi Putri S.M</h5>
+            <p class="card-text fw-semibold">Spesialis Marketplace</p>
+          </div>
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Bagus-Prastya-S.AgProgram-Associate.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Bagus Prastya, S.Ag</h5>
+            <p class="card-text fw-semibold">Fundraising Head</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Julia-Prastia-Anggun-S.-AkunCustomer-Relationship-Specialist.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Julia Prastia Anggun, S.Akun</h5>
+            <p class="card-text fw-semibold">Customer Relationship Specialist</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Customer-Relationship-SpecialistSinta-Awalinuari-S.I.Kom_.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Sinta Awalinuari, S.Ikom</h5>
+            <p class="card-text fw-semibold">Customer Relationship Specialist</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Salwa.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Salwa Fahira, S.H.</h5>
+            <p class="card-text fw-semibold">Legal and Human Resource Development</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center">Internship Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Haykal.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Muhammad Haykal A, S.Kom</h5>
+            <p class="card-text fw-semibold">Full Stack Python Developer</p>
+          </div>
+            
+          <ul class="list-group list-group-flus">
+            <li class="list-group-item text-center"> Internship Employee </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/static/Image/Karyawan/Fadel.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Fadel Amili, S.Kom</h5>
+            <p class="card-text fw-semibold">Front End Developer</p>
+          </div>
+            
+        <ul class="list-group list-group-flus">
+          <li class="list-group-item text-center"> Internship Employee </li>
+        </ul>
+        </div>
+      </div>
+
+  </div>
+</section>
+<!-- Akhir main -->
+             <!-- Footer -->
+        <!-- <div class="footer">
+            <footer>
+                <div class="alamat">
+                    <h2>Djalaludin Pane Foundation</h2>
+                    <p><a href="https://maps.app.goo.gl/25bbgu3xGGwdEPhY7">Jl. Setia Budi No. 123 Tanjung Sari, Kecamatan Selayang, Kota Medan, Sumatera Utara.</a></p>
+                    <p><a href="https://maps.app.goo.gl/PTaa7dcdS7E57U1Y6">Signature Park Grande Blok CTC/L1/01 Jl. MT. Haryono Kav. 20, Cawang, Jakarta Timur.</a></p>
+                    <p>+62 852 3456 7951 (Jakarta)</p>
+                    <p>+62 61 822 2119 (Medan)</p>
+                    
+                </div>
+                
+                <div class="Footer">
+                    <h2>Tentang Kami</h2>
+                    <p><a href="https://dpf.or.id/tentang-kami/">Sejarah</a></p>
+                    <p><a href="https://dpf.or.id/visi-misi/">Visi Misi</a></p>
+                    <p><a href="https://dpf.or.id/budaya-kerja/">Budaya kerja</a></p>
+                    <p><a href="https://dpf.or.id/rekening/">Rekening</a></p>
+                    <p><a href="https://dpf.or.id/laporan/">Laporan</a></p>
+                    <p><a href="https://docs.google.com/document/d/1hQmBpQj1pYjlNJu0HVi1s8eMJ6-3w8aR/edit?usp=sharing&ouid=109759433398079151349&rtpof=true&sd=true">Daftar Pertanyaan Smart Ziswaf</a></p>
+                </div>
+                
+                <div class="icon">
+                    <h2>Media Sosial
+                        
+                    </h2>
+                    <a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng==">
+                        <img src="/static/Image/instagram.png" alt="Instagram Icon" style="width: 50px; height: auto;">
+                    </a> 
+
+                    <a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F">
+                        <img src="/static/Image/whatsapp.png" alt="WhatsApp Icon" style="width: 50px; height: auto; " id="##WhatsApp">
+                    </a>             
+
+                    <a href="https://www.youtube.com/@dpfofficial">
+                        <img src="/static/Image/youtube.png" alt="YouTube Icon" style="width: 50px; height: auto;">
+                    </a>
+
+                    <a href="mailto:info@dpf.or.id">
+                        <img src="/static/Image/Gmail.png" alt="Gmail Icon" style="width: 50px; height: auto;">
+                    </a>                    
+                </div>
+                </div>
+            </footer>
+        </div> -->
+
+        <!-- Footer -->
+        <div class="footer bg-dark text-light">
+          <footer>
+            <div class="alamat">
+              <h2>Djalaluddin Pane Foundation</h2>
+              <a href="https://maps.app.goo.gl/25bbgu3xGGwdEPhY7" >
+                <p class="text-light">
+                  Jl. Setia Budi No.123, Tj. Sari, Kec. Medan Selayang,<br />
+                  Kota Medan, Sumatera Utara 20132
+                </p>
+              </a>
+              <p>(Kantor Medan)</p>
+  
+              <a href="https://maps.app.goo.gl/PTaa7dcdS7E57U1Y6">
+                <p class="text-light">
+                  Signature Park Grande, Jl. Letjen M.T. Haryono No.Kav. 20, RT.4/RW.1, Cawang,<br />
+                  Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13630
+                </p>
+              </a>
+              <p>(Kantor Jakarta)</p>
+              <p>&copy; Djalaluddin Pane Foundation</p>
+            </div>
+  
+            <div class="Footer">
+              <h2>Tentang Kami</h2>
+              <p><a href="https://dpf.or.id/tentang-kami/" class="text-light">Sejarah</a></p>
+              <p><a href="https://dpf.or.id/visi-misi/" class="text-light">Visi Misi</a></p>
+              <p><a href="https://dpf.or.id/budaya-kerja/" class="text-light">Budaya kerja</a></p>
+              <p><a href="https://dpf.or.id/rekening/" class="text-light">Rekening</a></p>
+              <p><a href="https://dpf.or.id/laporan/" class="text-light">Laporan</a></p>
+              <p><a href="https://docs.google.com/document/d/1KgDll-1XhL1ju2Uhdw7iBIUASczEs7UvVzfjjQwZtUI/edit?usp=sharing" class="text-light">Daftar Pertanyaan Smart Ziswaf</a></p>
+            </div>
+  
+            <div class="mediaSosial">
+              <div>
+                <h2>Media Sosial</h2>
+              </div>
+              <div class="icon">
+                <a href="https://www.instagram.com/dpf.or.id?igsh=MTc4MmM1YmI2Ng==" class="bg-light rounded">
+                  <img src="/static/Image/instagram.png" alt="Instagram Icon" style="width: 50px; height: auto" />
+                </a>
+  
+                <a href="https://api.whatsapp.com/send?phone=6285234567951&text=Assalamualaikum%2C%20saya%20ingin%20menunaikan%20zakat%20bisakah%20dibantu%3F" target="_blank">
+                  <img src="/static/Image/whatsapp.png" alt="WhatsApp Icon" style="width: 50px; height: auto" id="##WhatsApp" class="bg-light rounded"/>
+                </a>
+  
+                <a href="https://www.youtube.com/@dpfofficial">
+                  <img src="/static/Image/youtube.png" alt="YouTube Icon" style="width: 50px; height: auto" class="bg-light rounded" />
+                </a>
+  
+                <a href="mailto:info@dpf.or.id">
+                  <img src="/static/Image/Gmail.png" alt="Gmail Icon" style="width: 50px; height: auto" class="bg-light rounded" />
+                </a>
+              </div>
+            </div>
+          </footer>
+        </div>
+</html>
