@@ -6,58 +6,56 @@ import numpy as np
 import pickle
 import tensorflow as tf
 from nltk.stem import WordNetLemmatizer
-from tensorflow import keras
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-global responses, lemmatizer, tokenizer, le, model, input_shape
-input_shape = 12
-# import dataset answer
-def load_response():
-    global responses
-    responses = {}
-    with open('dataset/IslamicBot.json', encoding="utf-8") as content:
-        data = json.load(content)
-    for intent in data['intents']:
-        responses[intent['tag']]=intent['responses']
 
-# import model dan download nltk file
-def preparation():
-    load_response()
-    global lemmatizer, tokenizer, le, model
-    tokenizer = pickle.load(open('model/tokenizers.pkl', 'rb'))
-    le = pickle.load(open('model/le.pkl', 'rb'))
-    model = tf.keras.models.load_model('model/chat_model.h5')
-    lemmatizer = WordNetLemmatizer()
-    nltk.download('punkt', quiet=True)
-    nltk.download('wordnet', quiet=True)
-    nltk.download('omw-1.4', quiet=True)
+class ChatBot:
+    def __init__(self):
+        self.responses = {}
+        self.lemmatizer = WordNetLemmatizer()
+        self.tokenizer = pickle.load(open('model/tokenizers.pkl', 'rb'))
+        self.le = pickle.load(open('model/le.pkl', 'rb'))
+        self.model = tf.keras.models.load_model('model/chat_model.h5')
+        self.input_shape = 12
 
-# hapus tanda baca
-def remove_punctuation(text):
-    texts_p = []
-    text = [letters.lower() for letters in text if letters not in string.punctuation]
-    text = ''.join(text)
-    texts_p.append(text)
-    return texts_p
+        nltk.download('punkt', quiet=True)
+        nltk.download('wordnet', quiet=True)
 
-# mengubah text menjadi vector
-def vectorization(texts_p):
-    vector = tokenizer.texts_to_sequences(texts_p)
-    vector = np.array(vector).reshape(-1)
-    vector = pad_sequences([vector], input_shape)
-    return vector
+        with open('dataset/IslamicBot.json', encoding="utf-8") as content:
+            data = json.load(content)
+        for intent in data['intents']:
+            self.responses[intent['tag']] = intent['responses']
 
-# klasifikasi pertanyaan user
-def predict(vector):
-    output = model.predict(vector)
-    output = output.argmax()
-    response_tag = le.inverse_transform([output])[0]
-    return response_tag
+    def preprocess_text(self, text):
+        text = ''.join([char.lower()
+                       for char in text if char not in string.punctuation])
+        return text
 
-# menghasilkan jawaban berdasarkan pertanyaan user
-def generate_response(text):
-    texts_p = remove_punctuation(text)
-    vector = vectorization(texts_p)
-    response_tag = predict(vector)
-    answer = random.choice(responses[response_tag])
-    return answer
+    def vectorize_text(self, text):
+        text = self.preprocess_text(text)
+        vector = self.tokenizer.texts_to_sequences([text])
+        vector = np.array(vector).reshape(-1)
+        vector = pad_sequences([vector], self.input_shape)
+        return vector
+
+    def predict_response(self, vector):
+        output = self.model.predict(vector)
+        output = output.argmax()
+        response_tag = self.le.inverse_transform([output])[0]
+        return response_tag
+
+    def generate_response(self, text):
+        vector = self.vectorize_text(text)
+        response_tag = self.predict_response(vector)
+        answer = random.choice(self.responses.get(response_tag, [
+                               'Mohon maaf aku ga dapat memahaminya, tolong kasih pertanyaan yang jelas ya!']))
+        return answer
+
+
+# Contoh penggunaan ChatBot
+bot = ChatBot()
+
+# Test
+question = "Assalamualaikum"
+response = bot.generate_response(question)
+print(response)
